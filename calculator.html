@@ -1,0 +1,28 @@
+<html>
+			<head>
+					<title>Calculator</title>
+					<script>
+								function add(){
+											//alert("hello");m 
+									var x=document.getElementById("txt1").value;
+									var y=document.getElementById("txt2").value;
+									var z=parseInt(x)+parsInt(y);
+									alert("Addition:"+z);
+														}
+								function sub(){
+											//alert("hello");
+									var x=document.getElementById("txt1").value;
+									var y=document.getElementById("txt2").value;
+									var z=parseInt(x)+parsInt(y);
+									alert("Subtraction:"+z);
+														}
+					</script>
+			</head>
+			<body>
+						<form>
+					Number1:<input type="text" id="txt1" name="txt1" required><br>
+					Number2:<input type="text" id="txt2" name="txt2" required><br>
+						<input type="submit" value="ADD" onclick="add()">
+						</form>
+			</body>
+</html>   
